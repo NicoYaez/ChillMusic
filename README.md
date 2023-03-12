@@ -36,6 +36,22 @@ module.exports = {
 };
 ```
 
+### Instalación.
+
+1. Conseguir el token de tu bot en [Discord Developers](https://discordapp.com/developers/applications)
+2. Clona el repositorio
+   ```sh
+   git clone https://github.com/NicoYaez/ChillMusic
+   ```
+3. Instalar NPM packages
+   ```sh
+   npm install
+   ```
+4. Coloca tu token en `config.js`
+   ```JS
+   token: 'TU_TOKEN_AQUI'
+   ```
+
 Configuración Basica
 
 - `app/token`, El token del bot disponible en [Discord Developers](https://discordapp.com/developers/applications).
